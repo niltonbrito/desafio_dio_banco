@@ -6,6 +6,9 @@ public class Terminal {
 		Conta cc = new ContaCorrente();
 		Conta cp = new ContaPoupanca();
 		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		
 		
 	}
 }
