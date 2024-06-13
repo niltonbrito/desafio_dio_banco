@@ -2,14 +2,14 @@ package desafio_dio_banco;
 
 public class Banco {
 
-	private String nome;
+	protected static final int AGENCIA_PADRAO = 0001;
+	private String nomeBanco;
 
-	public String getNome() {
-		return nome;
+	public String getNomeBanco() {
+		return nomeBanco;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNomeBanco(String nomeBanco) {
+		this.nomeBanco = nomeBanco;
 	}
-
 }

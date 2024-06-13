@@ -1,15 +1,17 @@
 package desafio_dio_banco;
 
 public class Cliente {
-	
-	private String nome;
 
-	public String getNome() {
-		return nome;
+	private String nomeCliente;
+
+	public Cliente() {
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public String getNomeCliente() {
+		return nomeCliente;
 	}
-	
+
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
 }
